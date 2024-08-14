@@ -23,16 +23,28 @@ ul, p {
 }
 
 button {
+    font-weight: 900;
+    color: #E5E7EB;
+    font-size: 16px;
     background-color: #3882F6;
+    border-radius: 8px;
+    width: 160px;
+    padding: 8px 24px;
+    border: 0px;
 }
 
 .header, .content-1, .footer {
     background-color: #1F2937;
 }
 
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -43,13 +55,18 @@ button {
 }
 
 .pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: grey;
+    width: 700px;
+    height: 300px;
 }
 
 .subtitle {
     text-align: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1F2937;
 }
 
@@ -61,26 +78,33 @@ button {
 
 .content-1 {
     align-self: stretch;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
+    flex-grow: 1;
+    padding: 60px 80px;
 }
 
 .content-2 {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    padding: 60px 80px;
 }
 
 .content-3 {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     background-color: #E5E7EB;
+    padding: 160px 360px;
 }
 
 .content-4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 40px;
+    padding: 80px 200px;
+    flex-grow: 1;
 
 }
 
@@ -93,14 +117,28 @@ button {
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 6px solid #3882F6;
-    border-radius: 25%;
+    border-radius: 15%;
+    align-self: center;
+}
+
+.subtext {
+    width: 200px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .items {
     display: flex;
+    gap: 56px;
+    margin-top: 40px;
 }
 
 .quote {
@@ -111,15 +149,31 @@ button {
 
 .name-quote {
     align-self: flex-end;
+    font-size: 32px;
+    font-weight: 900;
 }
 
 .frame {
     display: flex;
     background-color: #3882F6;
-    justify-content: space-evenly;
+    gap: 60px;
+    padding: 80px 140px;
+    border-radius: 8px;
+}
+
+.signup-text {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.signup-subtitle {
+   font-weight: 900;
+   font-size: 24px; 
 }
 
 .signup-button {
     align-self: flex-end;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
 }
 
