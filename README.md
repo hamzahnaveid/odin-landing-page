@@ -1,1 +1,1 @@
-Landing page to demonstrate uses of Flexbox for The Odin Project
+This project is the template for a website's landing page that implements Flexbox functionality in CSS.
